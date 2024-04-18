@@ -1,0 +1,52 @@
+OrGeneration
+[15, 16, 16]
+generation1
+[104, 113, 251]31
+[220, 125, 197]31
+[238, 221, 218]47
+[241, 156, 17]16
+[33, 114, 94]32
+-----------------------------------------
+generation2
+[159, 113, 251] MaxIndivid:16
+[220, 125, 197] MaxIndivid:31
+[238, 221, 218] MaxIndivid:47
+[241, 156, 17] MaxIndivid:16
+[33, 114, 94] MaxIndivid:32
+Parents 0 x 3
+ Counter0 MinGen16 MaxCh1_16 MaxCh2_31
+crossover = True
+mutation = True
+-----------------------------------------
+generation3
+[159, 113, 251] MaxIndivid:16
+[220, 133, 94] MaxIndivid:16
+[238, 221, 218] MaxIndivid:47
+[241, 156, 17] MaxIndivid:16
+[33, 114, 94] MaxIndivid:32
+Parents 1 x 4
+ Counter1 MinGen16 MaxCh1_16 MaxCh2_31
+crossover = True
+mutation = True
+-----------------------------------------
+generation4
+[159, 113, 251] MaxIndivid:16
+[220, 133, 94] MaxIndivid:16
+[81, 156, 17] MaxIndivid:16
+[241, 156, 17] MaxIndivid:16
+[33, 114, 94] MaxIndivid:32
+Parents 2 x 3
+ Counter2 MinGen16 MaxCh1_16 MaxCh2_32
+crossover = True
+mutation = True
+-----------------------------------------
+generation5
+[159, 113, 251] MaxIndivid:16
+[220, 133, 94] MaxIndivid:16
+[81, 156, 17] MaxIndivid:16
+[241, 156, 17] MaxIndivid:16
+[33, 114, 94] MaxIndivid:32
+Parents 1 x 4
+ Counter3 MinGen16 MaxCh1_16 MaxCh2_16
+crossover = True
+mutation = True
