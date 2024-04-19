@@ -41,7 +41,8 @@ def invert_random_bit(number):
     return new_number
 
 
-m = int(input("Введите кол-во особей: "))
+m = int(input("Введите кол-во генов: "))
+k = int(input("Введите кол-во особей: "))
 n = int(input("Введите кол-во процессоров: "))
 t1 = int(input("Введите диапазон от: "))
 t2 = int(input("Введите диапазон до: "))
@@ -51,7 +52,7 @@ Pm = int(input("Введите вероятность мутации: "))
 
 parents = []
 
-for i in range(n):
+for i in range(k):
     parents.append([])
     for j in range(m):
         parents[i].append(random.randint(t1, t2))
@@ -82,7 +83,7 @@ for row in intervals:
 
 parents_phenotypes = []
 
-for i in range(n):
+for i in range(k):
     parents_phenotypes.append([])
     for j in range(m):
         parents_phenotypes[i].append(random.randint(0, 255))
@@ -93,8 +94,8 @@ for i in range(len(parents)):
 
 all_children = []
 
-for i in range(n):
-    all_children.append(check_intervals(intervals, parents[i], parents_phenotypes[i], n))
+for i in range(k):
+    all_children.append(check_intervals(intervals, parents[i], parents_phenotypes[i], k))
 
 print("ALL - ", all_children)
 
